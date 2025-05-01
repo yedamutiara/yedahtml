@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d9e86ab;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Login box styling */
+.login {
+    background-color: #c9278b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(187, 22, 22, 0.1);
+    width: 300px;
+    margin: auto; 
+/* untuk pusatkan */
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login input[type="username"], 
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #fd0909;
+    border-radius: 5px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0ac9cf;
+    color: #026e7c;
+    border: none;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+
